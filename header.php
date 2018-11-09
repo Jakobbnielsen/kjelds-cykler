@@ -7,4 +7,4 @@
     <?php wp_head(); ?>
   </head>
   <body>
-    <h1>Test commit</h1>
+    <h1>Test commit v.2</h1>
