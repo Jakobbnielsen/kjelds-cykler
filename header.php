@@ -7,4 +7,4 @@
     <?php wp_head(); ?>
   </head>
   <body>
-    <h1><?php bloginfo('name'); ?></h1>
+    <h1>Hvad så bøsser</h1>
