@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/style.css">
     <?php wp_head(); ?>
   </head>
+
   <body>
+    <?php wp_nav_menu(array('theme_location'=>'primary')); ?>
+
     <h1>Hvad så bøsser</h1>
