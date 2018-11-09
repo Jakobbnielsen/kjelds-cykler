@@ -7,4 +7,4 @@
     <?php wp_head(); ?>
   </head>
   <body>
-    <h1>Hvad så bøsser</h1>
+    <h1>Test commit</h1>
