@@ -8,5 +8,11 @@
     <?php wp_head(); ?>
   </head>
   <body>
-    <?php wp_nav_menu(array('theme_location'=>'primary')); ?>
-    <h1>Antraxen</h1>
+    <main>
+      <section id="menu">
+        <p>menu</p>
+        <?php wp_nav_menu(array('theme_location'=>'primary')); ?>
+      </section>
+      <section id="header">
+        <p>header</p>
+      </section>
