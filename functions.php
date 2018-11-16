@@ -15,6 +15,8 @@ register_nav_menu('secondary', 'Footer Navigation');
 
 add_action('init', 'kjeld_theme_setup');
 
+add_filter( 'woocommerce_is_purchasable', '__return_false');
+
 /**
  * Use front-page.php when Front page displays is set to a static page.
  *
