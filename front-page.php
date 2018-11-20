@@ -13,7 +13,11 @@
  */
 
 get_header(); ?>
-
+<section id="banner">
+  <div class="banner-btn">
+    <button id="banner-btn">Byt til nyt</button>
+  </div>
+</section>
 <section id="spotlight">
   <div class="">
     <p>Spotlight cykel 1zzzzz</p>
@@ -30,22 +34,32 @@ get_header(); ?>
 </section>
 <section id="values">
   <div class="">
-    <p>Værdi 1</p>
+    <div id="value-icon1" class="value-icon"></div>
+    <h4>Faglig stolthed</h4>
+    <p>The new editor will be enabled by default in the next major release of WordPress. If you’re not sure how compatible your current themes and plugins are, we’ve got you covered.</p>
   </div>
   <div class="">
-    <p>Værdi 2</p>
+    <div id="value-icon1" class="value-icon"></div>
+    <h4>Faglig stolthed</h4>
+    <p>The new editor will be enabled by default in the next major release of WordPress. If you’re not sure how compatible your current themes and plugins are, we’ve got you covered.</p>
   </div>
   <div class="">
-    <p>Værdi 3</p>
+    <div id="value-icon1" class="value-icon"></div>
+    <h4>Faglig stolthed</h4>
+    <p>The new editor will be enabled by default in the next major release of WordPress. If you’re not sure how compatible your current themes and plugins are, we’ve got you covered.</p>
   </div>
 </section>
 <section id="personal">
   <div class="info">
     <div class="">
-      <p>Samlet billede af medarbejdere</p>
+      <img src="http://localhost:8888/wordpress/wp-content/uploads/2018/11/staff.png">
     </div>
-    <div class="">
-      <p>Tekst omkring din personlige cykelhandler</p>
+    <div class="infotext">
+      <h2>Din personlige cykelhandler</h2>
+      <h4>Overskrift 1</h4>
+      <p>The new editor will be enabled by default in the next major release of WordPress. If you’re not sure how compatible your current themes and plugins are, we’ve got you covered.</p>
+      <h4>Overskrift 2</h4>
+      <p>The new editor will be enabled by default in the next major release of WordPress. If you’re not sure how compatible your current themes and plugins are, we’ve got you covered.</p>
     </div>
   </div>
   <div class="videos">

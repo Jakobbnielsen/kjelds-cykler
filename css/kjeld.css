@@ -4,9 +4,16 @@
   box-sizing: border-box;
 }
 
+@font-face {
+    font-family: GrenadierNF;
+    src: url(media/GrenadierNF.ttf);
+}
+
 body{
   font-family: 'Leckerli One', sans-serif;
   font-size: 16px;
+  background-image: url('../media/body-bg.jpg');
+  background-repeat: repeat-y;
 }
 
 p{
@@ -22,7 +29,6 @@ main {
 
 section{
   grid-column: 1 / 13;
-  background-color: yellow;
 }
 
 .products{
@@ -40,8 +46,9 @@ section{
 .logo{
   width: 250px;
   height: auto;
-  margin: 0 auto;
-  position: relative;
+  text-align: center;
+  margin: -115px auto 0 auto;
+  z-index: 2;
 }
 
 .logo img{
@@ -55,14 +62,19 @@ section{
   background-position: center;
   background-size: contain;
   width: 1200px;
-  margin: 0 auto;
+  margin: 40px auto 0 auto;
+  height: 83px;
+}
+
+.menu-header-navigation-container{
+  top: -156px;
+  position: relative;
 }
 
 #menu-header-navigation{
   list-style-type: none;
   margin: 30px auto 0 auto;
   width: 80%;
-
 }
 
 #menu-header-navigation li{
@@ -94,6 +106,24 @@ header{
   z-index: 2;
 }
 
+.banner-btn{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#banner-btn{
+  width: 250px;
+  height: 75px;
+  border: none;
+  background: url('http://localhost:8888/wordpress/wp-content/uploads/2018/11/button.png') no-repeat;
+  background-size: contain;
+  margin: 300px auto 180px auto;
+  font-family: 'Leckerli One', sans-serif;
+  color: #F2D491;
+  font-size: 24px;
+}
+
 .main-content{
   grid-column: 1 / 13;
   background-color: pink;
@@ -109,7 +139,7 @@ header{
   background-color: #415879;
   grid-row-start: 1;
   grid-row-end: 3;
-  background-image: url(https://images.designtrends.com/wp-content/uploads/2015/12/03063020/Feature-Image.jpg);
+  background-image: url('http://localhost:8888/wordpress/wp-content/uploads/2018/11/banner-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -124,28 +154,75 @@ header{
 }
 
 #spotlight{
-  background-color: orange;
   height: 500px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
 
 #values{
-  background-color: pink;
-  height: 400px;
+  color: #F2D491;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  background-image: url('../media/values-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 120px 80px;
+  text-align: center;
+}
+
+#values h4{
+  font-family: 'Leckerli One', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 100;
+}
+
+#values p{
+  font-family: 'Rokkitt', sans-serif;
+  color: #F2D491;
+  margin-top: 15px;
+}
+
+#values>div{
+  padding: 0 50px;
+}
+
+#value-icon1{
+  background-image: url(../media/value1.svg);
+  background-size: 48%;
+}
+
+.value-icon{
+  display: inline-block;
+  text-align: center;
+  border: solid 1px #F2D491;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.4s;
+  width: 82px;
+  height: 82px;
+  border-radius: 82px;
 }
 
 #personal{
-  background-color: yellow;
   height: 800px;
 }
 
 .info{
-  height: 400px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+
+.infotext{
+  padding: 100px 50px 0 50px;
+}
+
+.infotext h2{
+  font-size: 2.2rem;
+}
+
+.infotext h4{
+  font-size: 1.4rem;
+  margin-top: 30px;
 }
 
 .videos{
