@@ -204,12 +204,14 @@ header{
 }
 
 #personal{
-  height: 800px;
+
 }
 
 .info{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  width: 1200px;
+  margin: 80px auto 0 auto;
 }
 
 .infotext{
@@ -231,6 +233,29 @@ header{
   grid-template-columns: repeat(3, 1fr);
 }
 
+.videos video{
+  width: 100%;
+  height: auto;
+}
+
+.fb-btn{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#fb-btn{
+  width: 250px;
+  height: 75px;
+  border: none;
+  background: url('http://localhost:8888/wordpress/wp-content/uploads/2018/11/button.png') no-repeat;
+  background-size: contain;
+  margin: 00px auto 100px auto;
+  font-family: 'Leckerli One', sans-serif;
+  color: #F2D491;
+  font-size: 24px;
+}
+
 .fb-link{
   grid-template-columns: repeat(1, 1fr);
 }
@@ -250,9 +275,18 @@ header{
 }
 
 footer{
-  height: 200px;
-  background-color: cyan;
   grid-column: 1 / 13;
+  background-color: #343434;
+  color: #FFFFFF;
+  padding: 100px 60px 50px 60px;
+  text-align: center;
+}
+
+.footer-container{
+  grid-column: 1 / 13;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-bottom: 70px;
 }
 
 /* -------------------- TABLET MEDIA QUERY -------------------- */

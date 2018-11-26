@@ -64,19 +64,26 @@ get_header(); ?>
   </div>
   <div class="videos">
     <div class="">
-      <p>Video 1</p>
+      <video controls>
+        <source src="movie.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
     </div>
     <div class="">
-      <p>Video 2</p>
+      <video controls>
+        <source src="movie.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
     </div>
     <div class="">
-      <p>Video 3</p>
+      <video controls>
+        <source src="movie.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
     </div>
   </div>
-  <div class="fb-link">
-    <div class="">
-      <p>Knap til FB side</p>
-    </div>
+  <div class="fb-btn">
+    <button id="fb-btn">Se vores Facebook</button>
   </div>
 </section>
 <section id="instagram">
