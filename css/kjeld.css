@@ -33,14 +33,19 @@ section{
 
 .products{
   list-style-type: none;
+  width: 125%;
+  padding: 0;
 }
 
 .products li{
-  width: 25%;
-  display: block;
-  margin: 0;
-  padding: 0;
+  width: 20.5%;
+  display: inline;
+  margin: 0 auto;
   float: left;
+}
+
+.products li h2{
+  text-align: center;
 }
 
 .logo{
@@ -144,9 +149,6 @@ header{
   background-size: cover;
   background-position: center;
   z-index: 1;
-}
-
-.products li{
 }
 
 #header .primary-menu ul {
